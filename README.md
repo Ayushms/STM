@@ -1,3 +1,4 @@
 The Project is to detect the unauthourized access and send alerts and also beep buzzer with LCD for display all using the STM32F407VG and ESP32 only for sending the telergram alerts all the necessary files are there in that itself main.c and the library files can be found and it will also detect if any unaccessed item is being moved or not
 So the thing is that first IR detects the entry and then the user has 5 seconds of time to scan his RFID tag otherwise it will be taken as unauthorized and the alerts will be sent abd if anyone tries to access ghe unauthorized things like server box etc then also the alerts with buzzer beep with the LCD display also will be shown.
 The communication between LCD and STM32 is through I2C and between the MPU6050 and STM32 is I2C2, between the RFID reader(RC522) and STM32 is SPI1 and the IR is GPIO input and buzzer is GPIO output
+If you have the STM32CubeIDE and keil u can clone tis and run
